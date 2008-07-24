@@ -10,7 +10,6 @@ use Getopt::Long;
 
 use lib "$FindBin::Bin/../lib";
 use Chinmaya::Scraper;
-#use Net::Twitter;
 
 my %opts;
 if (!GetOptions(\%opts,
@@ -34,7 +33,6 @@ sub do_work {
     my $areas = fetch_areas($dbh);
 
     my $scraper = Chinmaya::Scraper->new();
-    #my $twitter = Net::Twitter->new(username => 'tinma', password => 'tinmanko!1234');
 
     eval {
         AREA:
@@ -55,8 +53,6 @@ sub do_work {
             foreach my $shop (@$shops) {
                 my $shop_name = Encode::encode('utf-8', $shop->{name});
                 unless (delete $is_exists->{$shop_name}) {
-                    #my $shop_id = add_shop($dbh, $area->{id}, $shop);
-                    #$twitter->update(sprintf('New Open! 陳麻家 %s http://chin-ma-ya.org/shops/%d', $shop_name, $shop_id));
                     print STDERR "Queue shop(for add): $shop_name\n";
                     add_queue($dbh, {
                         method => 'add',
@@ -73,8 +69,6 @@ sub do_work {
 
             DELETE_SHOP:
             foreach my $shop (values %$is_exists) {
-                #delete_shop($dbh, $shop);
-                #$twitter->update(sprintf('Closed.. 陳麻家 %s', $shop->{name}));
                 print STDERR "Queue shop(for delete): $shop->{name}\n";
                 add_queue($dbh, {
                     method => 'delete',
@@ -119,7 +113,7 @@ sub add_queue {
 
     my $sql = <<'EOS';
 INSERT INTO queue_shop (
-    method, area_id, area_name, shop_name, address, latitude, longitude, extra, created_at
+    method, area_id, area_name, shop_id, shop_name, address, latitude, longitude, extra, created_at
 ) VALUES (
     ?, ?, ?, ?, ?, ?, ?, ?, datetime('now')
 )
@@ -130,6 +124,7 @@ EOS
         $shop->{method},
         $shop->{area_id},
         $shop->{area_name},
+        $shop->{shop_id},
         $shop->{shop_name},
         $shop->{address},
         $shop->{latitude},
