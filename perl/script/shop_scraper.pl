@@ -115,7 +115,7 @@ sub add_queue {
 INSERT INTO queue_shop (
     method, area_id, area_name, shop_id, shop_name, address, latitude, longitude, extra, created_at
 ) VALUES (
-    ?, ?, ?, ?, ?, ?, ?, ?, datetime('now')
+    ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now')
 )
 EOS
 

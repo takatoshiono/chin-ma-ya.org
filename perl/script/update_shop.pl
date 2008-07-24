@@ -112,7 +112,7 @@ sub twitter {
 sub add {
     my ($self, $src) = @_;
 
-    my $shop = $self->get_shop_by_name($src->{name});
+    my $shop = $self->get_shop_by_name($src->{shop_name});
     unless ($shop) {
         # DB
         my $dbh = $self->{dbh};
@@ -162,7 +162,7 @@ EOS
 sub delete {
     my ($self, $src) = @_;
 
-    my $shop = $self->get_shop_by_name($src->{name});
+    my $shop = $self->get_shop_by_name($src->{shop_name});
     if ($shop) {
         # GAE
         my $url = sprintf('http://%s/admin/delete/shop', $self->{host});
@@ -173,8 +173,8 @@ sub delete {
 
         # DB
         my $dbh = $self->{dbh};
-        my $sth = $dbh->prepare('DELETE FROM shops WHERE id = ?');
-        $dbh->execute($shop->{id});
+        my $sth = $dbh->prepare(q{UPDATE shops SET deleted_at = datetime('now') WHERE id = ?});
+        $sth->execute($shop->{id});
 
         # Twitter
         eval {
@@ -185,6 +185,9 @@ sub delete {
             # record error and ignore it.
             print STDERR "failed to delete shop($src->{shop_name}) notify on twitter: $e";
         }
+    }
+    else {
+        print STDERR "cannot find shop($src->{shop_name}) for delete\n";
     }
 }
 
