@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}最寄りの陳麻家検索(モバイル){% endblock %}
+
+{% block content %}
+<h1>最寄りの陳麻家検索(モバイル)</h1>
+
+<form action="/m/search" method="post">
+    <input type="text" name="lnd">の最寄りを<br />
+    <br />
+    <center><input type="submit" name="submit" value="検索する" /></center>
+</form>
+
+<hr />
+
+<div id="footer">
+    <center><font size="-1">&copy; Takatoshi Ono. All rights reserved.</font></center>
+</div>
+{% endblock %}
+

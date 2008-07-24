@@ -1,0 +1,28 @@
+{% extends "../base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}写真{% endblock %}
+
+{% block content %}
+    <div class="photo_list">
+        {% for object in object_list %}
+        <div class="photo_entry">
+            <div class="photo_entry_title">{{ object.title|escape }}</div>
+            <div class="photo_image"><img src="/photo/img?key={{ object.key }}" alt="{{ object.title|escape }}" /></div>
+            <div class="photo_entry_footer">
+                {% ifequal user object.user %}
+                <span class="photo_entry_edit"><a href="/photo/edit/{{ object.key }}">Edit</a></span> |
+                {% endifequal %}
+                <span class="photo_entry_user">{{ object.user.nickname|escape }}</span> |
+                {% if object.shop %}
+                <span class="photo_entry_shop"><a href="/shop/{{ object.shop.key }}">{{ object.shop.name|escape }}</a></span> |
+                {% endif %}
+                <span class="photo_entry_updated">{{ object.updated_at }}</span> |
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+

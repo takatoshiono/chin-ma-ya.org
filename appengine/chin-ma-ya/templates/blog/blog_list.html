@@ -1,0 +1,28 @@
+{% extends "../base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}ブログ{% endblock %}
+
+{% block content %}
+    <div class="blog_list">
+        {% for object in object_list %}
+        <div class="blog_entry">
+            <div class="blog_entry_title">{{ object.title|escape }}</div>
+            <div class="blog_entry_body">{{ object.body|escape|linebreaksbr }}</div>
+            <div class="blog_entry_footer">
+                <span class="blog_entry_permalink"><a href="/blog/{{ object.key }}">Permalink</a></span> |
+                {% ifequal user object.user %}
+                <span class="blog_entry_edit"><a href="/blog/edit/{{ object.key }}">Edit</a></span> |
+                {% endifequal %}
+                {% if object.shop %}
+                <span class="blog_entry_shop"><a href="/shops/{{ object.shop.id }}">{{ object.shop.name|escape }}</a></span> |
+                {% endif %}
+                <span class="blog_entry_updated">{{ object.updated_at }}</span> |
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+

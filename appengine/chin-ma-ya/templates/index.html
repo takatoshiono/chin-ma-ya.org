@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAS2GR3nbO3xhKL2p1o_b5fBT-ehhLZINZ9ZUT7kmUyQqOU2Z4rBRw9Pg3gzGYYLybYzZICRxjVJiRww" type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    var map;
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map_canvas"));
+        map.addControl(new GLargeMapControl());
+        map.addControl(new GMapTypeControl());
+        map.setCenter(new GLatLng(35.646255, 139.713416), 13);
+        map.addOverlay(new GGeoXml("http://beta.chin-ma-ya.org/shops/kml"));
+      }
+    }
+
+    var geocoder = new GClientGeocoder();
+
+    function showAddress(address) {
+        geocoder.getLatLng(
+            address,
+            function (point) {
+                if (point) {
+                    map.setCenter(point, 15);
+                }
+            }
+        );
+        return false;
+    }
+
+    window.onload = function() {
+        initialize();
+    }
+    window.onunload = function() {
+        GUnload();
+    }
+    //]]>
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div id="map_search">
+        <form onsubmit="return showAddress(this.address.value);" style="display: inline">
+            <input type="text" name="address" />
+            <input class="submit" type="submit" name="" value="移動" />
+        </form>
+    </div>
+
+    <div id="map_canvas"></div>
+
+    <div id="main">
+        <div id="main_left">
+            <h2>このサイトについて</h2>
+            <div class="text">
+            陳麻家マップは<a href="http://www.chin-ma-ya.com/">旨辛至福研究飯店　陳麻家</a>のファンによるファンのための非公式サイトです。
+            陳麻家の魅力の1つとして各店舗間のメニュー、味、店構えの差異があります。
+            このサイトでは日本全国にある陳麻家の情報をみんなの力で集めていくことを目標としています 
+            </div>
+
+            <h2>モバイル版</h2>
+            <div class="text">
+                <p>モバイル版ではケータイのGPS機能やキーワードを使って最寄りの陳麻家を探すことができます。<br />
+                以下のQRコードからアクセスしてください。</p>
+                <img src="/media/images/qrcode.png" alt="最寄りの陳麻家検索" />
+            </div>
+        </div>
+        <div id="main_right">
+<div id='vu_ytplayer_vjVQa1PpcFOSJMsfHJUrmreko-5IEaPvRwLYfEPkaDU='><a href='http://jp.youtube.com/browse'>Watch the latest videos on YouTube.com</a></div><script type='text/javascript' src='http://jp.youtube.com/watch_custom_player?id=vjVQa1PpcFOSJMsfHJUrmreko-5IEaPvRwLYfEPkaDU='></script>
+        </div>
+    </div>
+
+{% endblock %}
+

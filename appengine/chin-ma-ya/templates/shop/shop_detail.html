@@ -1,0 +1,60 @@
+{% extends "../base.html" %}
+
+{% block head %}
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAS2GR3nbO3xhKL2p1o_b5fBT-ehhLZINZ9ZUT7kmUyQqOU2Z4rBRw9Pg3gzGYYLybYzZICRxjVJiRww" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+    //<![CDATA[
+    var map;
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        var point = new GLatLng({{ object.geo.lat }}, {{ object.geo.lon }});
+        map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(point, 15);
+        //map.addOverlay(new GMarker(point));
+        map.addControl(new GLargeMapControl());
+        map.addControl(new GMapTypeControl());
+        map.addOverlay(new GGeoXml("http://beta.chin-ma-ya.org/shops/kml"));
+      }
+    }
+
+    window.onload = function() {
+        initialize();
+    }
+    window.onunload = function() {
+        GUnload();
+    }
+    //]]>
+    </script>
+{% endblock %}
+
+{% block title %}陳麻家 {{ object.name }}{% endblock %}
+
+{% block content %}
+    <div id="main">
+        <div>
+            <h2>陳麻家 {{ object.name }}</h2>
+
+            <table>
+                <tr>
+                    <td>地域</td>
+                    <td>{{ object.area.name }}</td>
+                </tr>
+                <tr>
+                    <td>住所</td>
+                    <td>{{ object.address }}</td>
+                </tr>
+                <tr>
+                    <td>緯度,経度</td>
+                    <td>{{ object.geo.lat }},{{ object.geo.lon }}</td>
+                </tr>
+                <tr>
+                    <td>追加情報</td>
+                    <td>{{ object.extra }}</td>
+                </tr>
+            </table>
+        </div>
+        <div id="map_canvas"></div>
+    </div><!-- end of main -->
+{% endblock %}
+

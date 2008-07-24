@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>陳麻家マップ | {% block title %}TOP{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/media/css/import.css" media="screen" />
+    {% block head %}{% endblock %}
+</head>
+<body>
+
+<div id="container">
+
+<h1><a href="/">陳麻家マップ</a></h1>
+
+<div id="search_form">
+    <form action="http://chin-ma-ya.org/search" id="cse-search-box">
+        <div>
+            <input type="hidden" name="cx" value="partner-pub-7223417079838154:ennpkk9dukl" />
+            <input type="hidden" name="cof" value="FORID:10" />
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="text" name="q" size="31" />
+            <input type="submit" name="sa" value="&#x691c;&#x7d22;" />
+        </div>
+    </form>
+    <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=ja"></script>
+</div>
+
+<div id="navigation">
+    <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="http://chin-ma-ya.org/planet/">Planet</a></li>
+        <li><a href="/shops/">店舗一覧</a></li>
+        <li><a href="/blog">みんなのブログ</a></li>
+        <!--
+        <li><a href="/photo">写真</a></li>
+        {% if user %}
+        <li><a href="/blog/edit">ブログを書く</a></li>
+        <li><a href="/photo/edit">写真をアップロードする</a></li>
+        {% endif %}
+        -->
+    </ul>
+</div>
+
+<div id="user_navi">
+    <ul id="topNavi">
+    {% if logout_url %}
+    <li>ようこそ {{ user.nickname|escape }} さん</li>
+    <li><span class="separator">|</span></li>
+    <li><a href="/blog/edit">ブログを書く</a></li>
+    <li><span class="separator">|</span></li>
+    <li><a href="/profile">プロフィール</a></li>
+    <li><span class="separator">|</span></li>
+    <li><a href="{{ logout_url }}">ログアウト</a></li>
+    {% endif %}
+    {% if login_url %}
+    <li><a href="{{ login_url }}">ログイン</a></li>
+    {% endif %}
+    </ul>
+</div>
+
+{% block banner_top %}
+<div id="banner_top">
+    <script type="text/javascript"><!--
+    google_ad_client = "pub-7223417079838154";
+    /* 728x90, 作成済み 08/07/13 */
+    google_ad_slot = "2504904313";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+{% endblock %}
+
+<div id="content">
+{% block content %}{% endblock %}
+</div>
+<div style="clear:both; margin:0; padding:0;"></div>
+
+<div id="banner_bottom" class="banner">
+バナー
+</div>
+
+<div id="footer">
+    <ul id="siteInfo">
+        <li><a href="">利用規約</a></li>
+        <li><a href="">プライバシーポリシー</a></li>
+    </ul>
+    <address>&copy; 2007-2008 <a href="mailto:takatoshi.ono@chin-ma-ya.com">Takatoshi Ono</a>. All rights reserved.</address>
+</div>
+
+</div><!-- container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-251340-5");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

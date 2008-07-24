@@ -1,0 +1,84 @@
+body { text-align: center; }
+
+h1 a { color: #000; text-decoration: none; }
+h1 a:visited { color: #000; }
+
+#container { width: 960px; margin: 0 auto; padding: 15px 0; text-align: left; position: relative; }
+#container h1 { padding: 3px 0 4px 0; }
+
+#navigation {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding: 0;
+    text-align: right;
+    vertical-align: middle;
+}
+#navigation ul { margin: 13px 20px 12px 20px; padding: 0; line-height: 1.0; }
+#navigation li { display: inline; padding: 0 0 0 5px;  }
+
+#user_navi { margin: 5px 0 10px 0; padding: 0 10px; border: 1.5px solid #999; font-size: 12px; }
+#user_navi ul { margin: 5px 0; padding: 0; line-height: 1.0; }
+#user_navi li { display: inline; padding: 0 0 0 5px;  }
+#user_navi li span.separator { padding: 0; color: #222; }
+
+#footer { margin-top: 20px; text-align: center; font-size: 11px; }
+#footer ul { margin: 5px 0; padding: 0; line-height: 1.0; }
+#footer li { display: inline; padding: 0 0 0 10px;  }
+
+/* --------------------------------------------------------------------------
+   content
+-------------------------------------------------------------------------- */
+
+#content {}
+
+#map_canvas { width: auto; height: 420px; margin: 0; }
+#map_search { text-align: right; margin-bottom: 3px; }
+
+#main { margin-top: 20px; }
+#main_left { float: left; width: 450px; }
+#main_right { margin-left: 480px; }
+#main div.text { margin: 10px 0; }
+
+/* --------------------------------------------------------------------------
+   banner
+-------------------------------------------------------------------------- */
+
+.banner { text-align: center; padding: 30px 0; border: 1px solid #aaa; vertical-align: middle; margin: 20px 0; }
+#banner_top { text-align: center; }
+
+/* --------------------------------------------------------------------------
+   blog
+-------------------------------------------------------------------------- */
+
+#blog_form { background-color: #eee; padding: 3px 5px; }
+#blog_form .form_row { margin: 5px 10px; }
+#blog_form input#title { width: 300px; padding: 0 3px; }
+#blog_form textarea#body { width: 700px; height: 200px; padding: 5px; }
+
+div.blog_entry { width: 700px; padding: 5px 10px; }
+    .blog_entry_title { font-size: 15px; font-weight: bold; margin: 10px 0; }
+    .blog_entry_body { margin: 5px 0; }
+    .blog_entry_footer { text-align: right; font-size: 12px; }
+
+/* --------------------------------------------------------------------------
+   profile
+-------------------------------------------------------------------------- */
+
+#profile_edit_link { font-size: 12px; }
+#profile_form { background-color: #eee; padding: 3px 5px; }
+#profile_form .form_row { margin: 5px 10px; }
+#profile_form input#title { width: 300px; padding: 0 3px; }
+
+/* --------------------------------------------------------------------------
+   search
+-------------------------------------------------------------------------- */
+
+#search_form {
+    position: absolute;
+    top: 26px;
+    left: 250px;
+    padding: 0;
+    vertical-align: middle;
+}
+

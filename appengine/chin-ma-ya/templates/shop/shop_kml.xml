@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <name>陳麻家マップ</name>
+  <description></description>
+  {% for shop in object_list %}
+  {% if shop.geo.lon and shop.geo.lat %}
+  <Placemark>
+    <name>{{ shop.name|escape }}</name>
+    <description>
+      <![CDATA[
+      <p>{{ shop.extra|escape }}</p>
+      <p><a href="http://beta.chin-ma-ya.org/shops/{{ shop.id }}">詳細</a></p>
+      ]]>
+    </description>
+    <Point>
+      <coordinates>{{ shop.geo.lon }},{{ shop.geo.lat }},0</coordinates>
+    </Point>
+  </Placemark>
+  {% endif %}
+  {% endfor %}
+</kml>

@@ -1,0 +1,48 @@
+{% extends "../base.html" %}
+
+{% block title %}店舗一覧{% endblock %}
+
+{% block head %}
+<style type="text/css">
+#main_left { width: 620px; }
+#main_right { margin-left: 650px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="main">
+    <div id="main_left">
+        <h2>店舗一覧</h2>
+
+        {% if object_list %}
+            <div id="shopList">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>エリア</th>
+                        <th>店舗名</th>
+                        <th>住所</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for object in object_list %}
+                    <tr class="{% cycle even,odd %}">
+                        <td>{{ object.area.name }}</td>
+                        <td><a href="/shops/{{ object.id }}">{{ object.name }}</a></td>
+                        <td>{{ object.address }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% else %}
+            <p>見つかりませんでした.</p>
+        {% endif %}
+    </div>
+    <div id="main_right">
+        <h3>店舗ランキング</h3>
+    </div>
+</div><!-- main -->
+
+{% endblock %}
+

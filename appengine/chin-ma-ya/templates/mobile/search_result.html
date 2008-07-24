@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}{{ lnd|escape }}の最寄りの陳麻家{% endblock %}
+
+{% block content %}
+<p id="result_header">
+{% if lnd %}
+<a href="{{ lnd_map|escape }}">{{ lnd|escape }}</a>の最寄りの陳麻家
+{% endif %}
+</p>
+
+<p id="result_list">
+{% for shop in shops %}
+    <p class="shop">
+        <a href="{{ shop.2|escape }}">{{ shop.0.name|escape }}</a><br />
+        {{ shop.0.address|escape }}<br />
+        {{ shop.0.extra|escape }}<br />
+        {{ shop.1.distance|escape }}km(
+        {{ shop.1.label_x|escape }}{{ shop.1.dx }}km,
+        {{ shop.1.label_y|escape }}{{ shop.1.dy }}km
+        )<br />
+    </p>
+    {% if forloop.last %}
+    {% ifequal forloop.counter 30 %}
+    <p>最大30件まで表示しています</p>
+    {% endifequal %}
+    {% endif %}
+{% endfor %}
+</p>
+
+<hr />
+
+<p><a href="/m/search">最寄りの陳麻家検索(モバイル)</a></p>
+
+<div id="footer">
+    <center><font size="-1">&copy; Takatoshi Ono. All rights reserved.</font></center>
+</div>
+{% endblock %}
+

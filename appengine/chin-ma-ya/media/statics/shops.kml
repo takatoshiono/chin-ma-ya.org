@@ -1,0 +1,1944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>陳麻屋マップ</name>
+    <description></description>
+    
+    
+    <Placemark>
+      <name>仙台駅西口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／日曜TEL／022-214-7396</p>
+      <p><a href="http://chin-ma-ya.org/shops/1/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>140.879158,38.258175,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>八戸城下店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜24:00定休日／無休TEL／0178-45-6116</p>
+      <p><a href="http://chin-ma-ya.org/shops/2/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>141.481183,40.520277,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>仙台駅東口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／日曜・祝日TEL／022-291-4611</p>
+      <p><a href="http://chin-ma-ya.org/shops/3/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>140.884952,38.258178,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>石巻店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／0225-94-5770</p>
+      <p><a href="http://chin-ma-ya.org/shops/4/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>141.298184,38.44201,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>盛岡中央通店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00※14:30〜17:00は休業定休日／日曜・祝日TEL／019-604-3833</p>
+      <p><a href="http://chin-ma-ya.org/shops/5/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>141.144519,39.705335,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>クリネックススタジアム宮城店</name>
+      <description>
+      <![CDATA[
+      <p>日本製紙クリネックススタジアム宮城営業時間／平日11:00〜17:00土曜14:00〜22:00定休日／不定休</p>
+      <p><a href="http://chin-ma-ya.org/shops/136/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>140.90445,38.258125,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>亀戸店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:30定休日／無休TEL／03-3636-6600</p>
+      <p><a href="http://chin-ma-ya.org/shops/6/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.825194,35.696316,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>高崎駅西口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／027-321-9970</p>
+      <p><a href="http://chin-ma-ya.org/shops/7/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.008998,36.322626,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>赤坂一ツ木通り店</name>
+      <description>
+      <![CDATA[
+      <p>赤坂エムプレスビル1F営業時間／11:00〜24:00定休日／無休TEL／03-3583-3737</p>
+      <p><a href="http://chin-ma-ya.org/shops/8/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.736185,35.675356,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>目黒店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-5434-3170</p>
+      <p><a href="http://chin-ma-ya.org/shops/9/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.712215,35.634302,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>神田司町店</name>
+      <description>
+      <![CDATA[
+      <p>冨士神田ビル1F営業時間／平日11:00〜23:00※15:00〜17:00は休業定休日／土曜・日曜・祝日TEL／03-5282-3385</p>
+      <p><a href="http://chin-ma-ya.org/shops/11/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.766461,35.692467,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>早稲田店</name>
+      <description>
+      <![CDATA[
+      <p>サンリット上山1F営業時間／11:00〜23:00定休日／無休TEL／03-5879-5708</p>
+      <p><a href="http://chin-ma-ya.org/shops/12/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.720075,35.705726,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>船堀駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜25:00定休日／無休TEL／03-3675-2101</p>
+      <p><a href="http://chin-ma-ya.org/shops/13/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.865453,35.68304,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>日本橋横山町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜日11:00〜14:00定休日／日曜・祝日TEL／03-3249-0036</p>
+      <p><a href="http://chin-ma-ya.org/shops/14/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.781498,35.691604,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>新小岩店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜24:00定休日／無休TEL／03-3656-2224</p>
+      <p><a href="http://chin-ma-ya.org/shops/15/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.860077,35.715531,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>練馬店</name>
+      <description>
+      <![CDATA[
+      <p>上武ビル1F営業時間／11:00〜23:00定休日／無休TEL／03-3993-0099</p>
+      <p><a href="http://chin-ma-ya.org/shops/16/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.654048,35.736834,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>大井町店</name>
+      <description>
+      <![CDATA[
+      <p>堀井ビル1F営業時間／11:00〜23:00定休日／無休TEL／03-3777-9693</p>
+      <p><a href="http://chin-ma-ya.org/shops/17/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.732183,35.605653,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>五反田東口駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-5420-3990</p>
+      <p><a href="http://chin-ma-ya.org/shops/18/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.725415,35.625957,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>神田神保町店</name>
+      <description>
+      <![CDATA[
+      <p>ダイナシティ千代田神保町1F営業時間／平日・休前日11:00〜23:00土曜・日曜・祝日11:00〜22:30定休日／無休TEL／03-3296-0055</p>
+      <p><a href="http://chin-ma-ya.org/shops/19/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.757522,35.697683,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>飯田橋店</name>
+      <description>
+      <![CDATA[
+      <p>朝日飯田橋マンション営業時間／平日11:00〜23:30土曜11:00〜17:00定休日／日曜・祝日TEL／03-3239-6607</p>
+      <p><a href="http://chin-ma-ya.org/shops/20/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.748159,35.699769,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>東上野店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜11:00〜15:00定休日／日曜・祝日TEL／03-3831-1899</p>
+      <p><a href="http://chin-ma-ya.org/shops/21/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.777236,35.708678,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>外神田店</name>
+      <description>
+      <![CDATA[
+      <p>富士ビル1F営業時間／11:00〜23:00定休日／日曜・祝日TEL／03-6908-7758</p>
+      <p><a href="http://chin-ma-ya.org/shops/22/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.769082,35.701462,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>京橋店（直営店）</name>
+      <description>
+      <![CDATA[
+      <p>イーストビル1F営業時間／平日11:00〜23:00土曜11:00〜14:00定休日／日曜・祝日TEL／03-3563-8822</p>
+      <p><a href="http://chin-ma-ya.org/shops/23/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.771249,35.676344,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>西新宿7丁目店</name>
+      <description>
+      <![CDATA[
+      <p>KKDビル営業時間／平日・土曜・祝日11:30〜23:00休前日11:30〜24:00※平日、休前日15:00〜17:00は休業定休日／日曜TEL／03-3371-6850</p>
+      <p><a href="http://chin-ma-ya.org/shops/25/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.698363,35.694241,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>八丁堀八重洲通店</name>
+      <description>
+      <![CDATA[
+      <p>ドミノビル1F営業時間／平日11:00〜23:00土曜日11:00〜14:00定休日／日曜・祝日TEL／03-3537-0053</p>
+      <p><a href="http://chin-ma-ya.org/shops/26/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.77629,35.677191,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>西新宿店</name>
+      <description>
+      <![CDATA[
+      <p>日植ビル1F営業時間／平日11:30〜24:00土曜11:30〜23:00日曜・祝日11:30〜22:00定休日／無休TEL／03-3348-2896</p>
+      <p><a href="http://chin-ma-ya.org/shops/27/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.696948,35.689263,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>曙橋店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-3341-0822</p>
+      <p><a href="http://chin-ma-ya.org/shops/28/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.722866,35.692248,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>新大久保駅前店</name>
+      <description>
+      <![CDATA[
+      <p>NKビル地下1階営業時間／11:00〜23:00TEL／03-3207-3330</p>
+      <p><a href="http://chin-ma-ya.org/shops/29/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.701228,35.701264,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>前橋関根町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00※平日15:00〜17:00は休業定休日／無休TEL／027-233-4129</p>
+      <p><a href="http://chin-ma-ya.org/shops/30/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.051874,36.433503,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>秋葉原店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／日曜・祝日TEL／03-5835-0209</p>
+      <p><a href="http://chin-ma-ya.org/shops/31/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.77636,35.700105,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>前橋下小出店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00※平日15:00〜17:00は休業定休日／火曜TEL／027-231-0414</p>
+      <p><a href="http://chin-ma-ya.org/shops/32/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.065356,36.414307,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>四谷三丁目店</name>
+      <description>
+      <![CDATA[
+      <p></p>
+      <p><a href="http://chin-ma-ya.org/shops/33/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.720109,35.68758,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>神谷町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:30〜23:00※平日15:00〜17:00は休業定休日／日曜TEL／03-3433-4833</p>
+      <p><a href="http://chin-ma-ya.org/shops/34/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.746187,35.663759,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>五反田駅西口さくら通り店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／日曜日・祝日TEL／03-3493-1125</p>
+      <p><a href="http://chin-ma-ya.org/shops/35/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.721347,35.626502,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>銀座三丁目店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日・土曜11:00〜23:30日曜・祝日11:00〜14:00定休日／無休TEL／03-3542-2127</p>
+      <p><a href="http://chin-ma-ya.org/shops/36/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.767823,35.671731,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>浅草寿店</name>
+      <description>
+      <![CDATA[
+      <p>エーハイツ伸光ビル1F営業時間／11:00〜23:00※15:00〜17:00は休業定休日／日曜TEL／03-6666-1511</p>
+      <p><a href="http://chin-ma-ya.org/shops/37/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.79063,35.707138,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>五反田西口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-5434-2750</p>
+      <p><a href="http://chin-ma-ya.org/shops/38/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.722214,35.623752,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>神田東口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／日曜TEL／03-5297-7296</p>
+      <p><a href="http://chin-ma-ya.org/shops/39/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.77238,35.692601,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>西新宿成子坂下店</name>
+      <description>
+      <![CDATA[
+      <p>小西ビル1F営業時間／11:00〜23:00定休日／無休TEL／03-5381-7581</p>
+      <p><a href="http://chin-ma-ya.org/shops/40/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.68836,35.695414,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>東十条店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:30定休日／無休TEL／03-3914-6882</p>
+      <p><a href="http://chin-ma-ya.org/shops/41/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.727318,35.765389,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>成増店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜25:30定休日／無休TEL／03-5968-4090</p>
+      <p><a href="http://chin-ma-ya.org/shops/42/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.63195,35.77753,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>上野3丁目店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜24:00土曜・日曜・祝日11:00〜23:00定休日／無休TEL／03-3833-9777</p>
+      <p><a href="http://chin-ma-ya.org/shops/43/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.774009,35.705908,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>東新宿店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日・土曜11:00〜23:00休前日11:00〜24:00祝日11:00〜23:00※平日・休前日16:00-17:00は休業定休日／日曜TEL／03-3204-1377</p>
+      <p><a href="http://chin-ma-ya.org/shops/44/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.70839,35.701879,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>両国店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-3635-7431</p>
+      <p><a href="http://chin-ma-ya.org/shops/45/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.794623,35.695626,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>湯島店</name>
+      <description>
+      <![CDATA[
+      <p>紀文堂ビル1F営業時間／11:00〜29:00定休日／無休TEL／03-3831-7631</p>
+      <p><a href="http://chin-ma-ya.org/shops/46/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.770942,35.708323,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>高円寺店</name>
+      <description>
+      <![CDATA[
+      <p>高円寺リリエンハイム103営業時間／11:00〜23:00定休日／無休TEL／03-3318-1286</p>
+      <p><a href="http://chin-ma-ya.org/shops/47/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.650443,35.70457,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>恵比寿東口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜11:00〜17:00定休日／日曜・祝日TEL／03-5448-1775</p>
+      <p><a href="http://chin-ma-ya.org/shops/48/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.713416,35.646255,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>千葉C・one店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00祝日／11:00〜23:00定休日／無休TEL／043-202-2223</p>
+      <p><a href="http://chin-ma-ya.org/shops/50/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>140.116815,35.609506,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>上野アメ横店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜24:00土曜・日曜・祝日11:00〜23:00定休日／無休TEL／03-5818-0599</p>
+      <p><a href="http://chin-ma-ya.org/shops/51/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.774658,35.708821,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>本郷三丁目店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00休前日・土曜11:00〜27:00定休日／日曜・祝日TEL／03-3814-0345</p>
+      <p><a href="http://chin-ma-ya.org/shops/52/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.76067,35.708244,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>渋谷宮益坂店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-6657-8785</p>
+      <p><a href="http://chin-ma-ya.org/shops/53/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.704273,35.659669,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>代々木店</name>
+      <description>
+      <![CDATA[
+      <p>ビューティータワー1Ｆ営業時間／11:00〜23:30定休日／無休TEL／03-3746-3880</p>
+      <p><a href="http://chin-ma-ya.org/shops/55/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.704181,35.680702,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>立川曙町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日・土曜11:00〜25:00日曜・祝日11:00〜20:00月曜日11:00〜14:00定休日／無休TEL／042-522-0075</p>
+      <p><a href="http://chin-ma-ya.org/shops/56/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.41667,35.69869,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>岩本町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜22:00土曜11:00〜14:30定休日／日曜・祝日TEL／03-3865-4150</p>
+      <p><a href="http://chin-ma-ya.org/shops/57/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.777749,35.694755,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>高田馬場店</name>
+      <description>
+      <![CDATA[
+      <p>NEWDKビル1F営業時間／11:00〜23:00定休日／日曜・祝日TEL／03-3205-0961</p>
+      <p><a href="http://chin-ma-ya.org/shops/59/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.706369,35.7136,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>飯田橋富士見店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日・土曜11:00〜23:30日曜・祝日11:00〜17:00定休日／無休TEL／03-3263-1816</p>
+      <p><a href="http://chin-ma-ya.org/shops/60/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.745384,35.698758,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>JR蒲田駅西口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:30日曜・祝日／11:00〜22:00定休日／無休TEL／03-3737-3745</p>
+      <p><a href="http://chin-ma-ya.org/shops/61/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.713679,35.560749,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>市ヶ谷店</name>
+      <description>
+      <![CDATA[
+      <p>MT市ヶ谷ビル1階営業時間／11:00〜23:00定休日／日曜・祝日TEL／03-3222-7787</p>
+      <p><a href="http://chin-ma-ya.org/shops/63/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.739026,35.692653,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>藤沢店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:30定休日／無休TEL／0466-24-7393</p>
+      <p><a href="http://chin-ma-ya.org/shops/64/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.486581,35.337986,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>さいたま新都心店</name>
+      <description>
+      <![CDATA[
+      <p>けやきひろば営業時間／11:00〜23:00定休日／無休TEL／048-600-0099</p>
+      <p><a href="http://chin-ma-ya.org/shops/65/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.631897,35.892836,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>浅草橋店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／日曜TEL／03-5941-7565</p>
+      <p><a href="http://chin-ma-ya.org/shops/66/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.785347,35.698194,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>池袋東口駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00※15:30〜17:00は休業定休日／無休TEL／03-5949-3396</p>
+      <p><a href="http://chin-ma-ya.org/shops/67/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.713508,35.73037,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>水戸河和田店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00定休日／無休TEL／029-253-2699</p>
+      <p><a href="http://chin-ma-ya.org/shops/68/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>140.405934,36.377046,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>御茶ノ水店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-3233-2101</p>
+      <p><a href="http://chin-ma-ya.org/shops/71/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.761205,35.696688,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>大塚店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日・休前日11:30〜24:00土曜11:30〜23:00日曜・祝日11:30〜22:00定休日／無休TEL／03-5961-3205</p>
+      <p><a href="http://chin-ma-ya.org/shops/72/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.727228,35.733131,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>北本店（直営店）</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00定休日／無休TEL／048-593-0444</p>
+      <p><a href="http://chin-ma-ya.org/shops/73/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.538467,36.03893,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>用賀店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／第1・第3火曜TEL／03-3707-8422</p>
+      <p><a href="http://chin-ma-ya.org/shops/75/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.635377,35.628002,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>初台店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／03-3370-2341</p>
+      <p><a href="http://chin-ma-ya.org/shops/102/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.686376,35.680398,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>西新橋1丁目店</name>
+      <description>
+      <![CDATA[
+      <p>桔梗備前ビル1F営業時間／平日11:00〜23:00土曜11:00〜14:00定休日／日曜・祝日TEL／03-3503-1817</p>
+      <p><a href="http://chin-ma-ya.org/shops/110/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.752699,35.6677,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>音羽店</name>
+      <description>
+      <![CDATA[
+      <p>アベニュー音羽105号営業時間／平日11:00〜25:00土曜・日祝日11:00〜23:00定休日／無休TEL／03-3944-2090（12/3より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/115/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.72819,35.718466,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>水道橋店</name>
+      <description>
+      <![CDATA[
+      <p>いしづかビル1F営業時間／11:00〜24:00定休日／無休TEL／03-3263-9981</p>
+      <p><a href="http://chin-ma-ya.org/shops/116/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.754641,35.701057,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>錦糸町北口店</name>
+      <description>
+      <![CDATA[
+      <p>私学ビル1Ｆ営業時間／平日11:30〜24:00土曜・日祝日11:30〜23:00定休日／無休TEL／03-3625-3650（12/18より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/121/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.813104,35.698245,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>ジャスコ品川シーサイド店</name>
+      <description>
+      <![CDATA[
+      <p></p>
+      <p><a href="http://chin-ma-ya.org/shops/122/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.749079,35.610912,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>宇都宮不動前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00定休日／無休TEL／028-632-0066</p>
+      <p><a href="http://chin-ma-ya.org/shops/123/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.882096,36.538814,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>土浦神立店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／029-834-7088</p>
+      <p><a href="http://chin-ma-ya.org/shops/124/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>140.218247,36.110299,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>板橋区役所前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜25:00土曜・日祝日11:00〜23:00定休日／無休TEL／03-5375-7160（1月末頃開通予定）</p>
+      <p><a href="http://chin-ma-ya.org/shops/125/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.709793,35.75107,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>吉祥寺北口店</name>
+      <description>
+      <![CDATA[
+      <p>サニーシティービルB1F営業時間／11:00〜23:00定休日／無休TEL／0442-29-7136</p>
+      <p><a href="http://chin-ma-ya.org/shops/129/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.581142,35.704398,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>西新橋三丁目店</name>
+      <description>
+      <![CDATA[
+      <p>白樺ビル1F営業時間／平日11:00〜23:00土曜11:00〜15:00定休日／日曜・祝日TEL／03-5473-7310（3/19より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/130/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.75006,35.663501,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>光が丘IMA店</name>
+      <description>
+      <![CDATA[
+      <p>光が丘IMA303号営業時間／11:00〜23:00定休日／無休TEL／03-5997-2477</p>
+      <p><a href="http://chin-ma-ya.org/shops/131/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.628772,35.758931,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>横浜イセザキモール店</name>
+      <description>
+      <![CDATA[
+      <p>第2イセビル1F営業時間／11:00〜27:00定休日／無休</p>
+      <p><a href="http://chin-ma-ya.org/shops/132/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.631109,35.44303,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>学芸大学駅前店</name>
+      <description>
+      <![CDATA[
+      <p>小川ビル1階営業時間／平日11:00〜25:00土曜11:00〜15:00定休日／無休TEL／03-3713-3290</p>
+      <p><a href="http://chin-ma-ya.org/shops/137/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.685695,35.628739,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>東中野駅西口店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日・土曜11:30〜26:00日曜・祝日11:30〜24:00定休日／無休TEL／03-6273-8967</p>
+      <p><a href="http://chin-ma-ya.org/shops/138/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.682612,35.706727,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>池袋駅南店</name>
+      <description>
+      <![CDATA[
+      <p>ゴールデンプラザ池袋地下1階営業時間／平日・日曜・祝日11:00〜23:00土曜11:00〜29:00定休日／無休TEL／03-3590-6650</p>
+      <p><a href="http://chin-ma-ya.org/shops/139/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.711415,35.727015,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>入間店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／04-2932-8505</p>
+      <p><a href="http://chin-ma-ya.org/shops/140/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.352024,35.845927,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>海浜幕張店</name>
+      <description>
+      <![CDATA[
+      <p>スーク海浜幕張1階営業時間／11:00〜23:00定休日／無休TEL／043-350-3141</p>
+      <p><a href="http://chin-ma-ya.org/shops/141/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>140.045291,35.649883,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>白楽店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00定休日／無休TEL／045-401-5799</p>
+      <p><a href="http://chin-ma-ya.org/shops/142/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.617107,35.48608,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>春日部武里店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00定休日／無休TEL／048-796-3514（5/1より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/143/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.751354,35.945299,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>小山店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜25:00定休日／無休TEL／0285-27-2110</p>
+      <p><a href="http://chin-ma-ya.org/shops/144/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.806528,36.292466,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>日本橋三越前店</name>
+      <description>
+      <![CDATA[
+      <p>井上第2ビル1階営業時間／11:00〜23:00定休日／日曜・祝日TEL／03-3274-6833（6/6より開通予定）</p>
+      <p><a href="http://chin-ma-ya.org/shops/153/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>139.774878,35.68511,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>福井駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:30〜23:00定休日／無休TEL／0776-28-1919</p>
+      <p><a href="http://chin-ma-ya.org/shops/77/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>136.220654,36.062245,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>富山駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜17:30〜25:00祝日17:30〜25:00定休日／日曜TEL／076-444-2353</p>
+      <p><a href="http://chin-ma-ya.org/shops/78/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>137.213418,36.698726,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>甲府駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:30定休日／日曜TEL／055-223-3225</p>
+      <p><a href="http://chin-ma-ya.org/shops/80/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>138.567678,35.66445,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>肥後橋店</name>
+      <description>
+      <![CDATA[
+      <p>玉水製麺ビル1F営業時間／平日11:00〜23:00※15:00〜17:00は休業土曜11:00〜14:00定休日／日曜・祝日TEL／06-6447-6899</p>
+      <p><a href="http://chin-ma-ya.org/shops/81/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.495203,34.690897,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>谷町二丁目店</name>
+      <description>
+      <![CDATA[
+      <p></p>
+      <p><a href="http://chin-ma-ya.org/shops/82/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.516939,34.68665,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>谷町4丁目店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／日曜・祝日TEL／06-6946-0818（8/17より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/83/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.517577,34.68265,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>六甲アイランド店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜22:00※15:00〜17:00は休業定休日／無休TEL／078-811-8912</p>
+      <p><a href="http://chin-ma-ya.org/shops/84/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.270858,34.68836,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>法善寺店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜24:30定休日／無休TEL／06-6214-0213</p>
+      <p><a href="http://chin-ma-ya.org/shops/85/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.501763,34.667967,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>難波中店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜・日曜・祝日／11:00〜15:00定休日／無休TEL／06-6649-1135</p>
+      <p><a href="http://chin-ma-ya.org/shops/86/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.500614,34.661593,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>北久宝寺店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜11:00〜15:00定休日／日曜・祝日TEL／06-6245-6061</p>
+      <p><a href="http://chin-ma-ya.org/shops/87/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.504351,34.679895,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>天満橋駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／06-6944-0999</p>
+      <p><a href="http://chin-ma-ya.org/shops/88/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.515626,34.690079,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>平野町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜11:00〜15:00定休日／日曜・祝日TEL／06-6208-1877</p>
+      <p><a href="http://chin-ma-ya.org/shops/89/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.498514,34.687598,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>名駅泥江店</name>
+      <description>
+      <![CDATA[
+      <p>茗荷ビル営業時間／11:00〜24:00※15:00〜17:00は休業定休日／日曜TEL／052-589-0058</p>
+      <p><a href="http://chin-ma-ya.org/shops/90/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>136.889096,35.171485,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>西本町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜11:00〜14:00定休日／日曜・祝日TEL／06-6533-2551</p>
+      <p><a href="http://chin-ma-ya.org/shops/91/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.495318,34.682981,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>生田新道店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜24:00定休日／無休TEL／078-322-0099</p>
+      <p><a href="http://chin-ma-ya.org/shops/92/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.18674,34.69213,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>桜通泉店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜11:00〜14:00※15:30〜16:30は休業定休日／日曜・祝日TEL／052-959-5737</p>
+      <p><a href="http://chin-ma-ya.org/shops/93/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>136.910616,35.174281,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>北浜店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:30〜23:30定休日／無休TEL／06-6231-3304</p>
+      <p><a href="http://chin-ma-ya.org/shops/94/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.504743,34.689499,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>本町店</name>
+      <description>
+      <![CDATA[
+      <p>角丸ビル1F営業時間／平日11:00〜23:00土曜・祝日11:00〜15:00定休日／日曜TEL／06-6271-0190</p>
+      <p><a href="http://chin-ma-ya.org/shops/95/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.504407,34.684703,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>上本町店</name>
+      <description>
+      <![CDATA[
+      <p>ワンダー5ビル1F営業時間／平日・土曜11:30〜24:00日曜・祝日11:30〜23:00定休日／無休TEL／06-6763-3009</p>
+      <p><a href="http://chin-ma-ya.org/shops/103/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.518882,34.666705,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>南船場二丁目店</name>
+      <description>
+      <![CDATA[
+      <p>アフラックス心斎橋ビルC棟営業時間／平日11:00〜23:00土曜11:00〜14:00定休日／日曜・祝日TEL／06-6252-3280（9/20より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/104/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.503682,34.676596,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>JR寺田町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜2:00定休日／無休TEL／06-6717-7810</p>
+      <p><a href="http://chin-ma-ya.org/shops/108/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.524347,34.648505,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>栄四丁目店</name>
+      <description>
+      <![CDATA[
+      <p>セントラルハイツ栄1F営業時間／11:00〜23:00定休日／日曜・祝日TEL／052-249-9797</p>
+      <p><a href="http://chin-ma-ya.org/shops/109/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>136.909925,35.1668,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>十三店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00定休日／無休TEL／06-6305-0410（11/21より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/111/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.480915,34.71999,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>三宮店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜24:00定休日／無休TEL／078-251-7188（開通日未定）</p>
+      <p><a href="http://chin-ma-ya.org/shops/112/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.196343,34.696023,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>扇町店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／06-6881-6781（11/24より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/113/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.511236,34.703006,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>丸の内店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜22:30定休日／日曜・祝日TEL／052-222-8383</p>
+      <p><a href="http://chin-ma-ya.org/shops/117/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>136.900057,35.175388,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>西天満店</name>
+      <description>
+      <![CDATA[
+      <p>エフワンビル1F営業時間／平日11:00〜23:00土曜11:00〜15:00定休日／日曜・祝日TEL／06-6367-0033（11/21より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/118/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.506784,34.698251,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>新大阪店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／平日11:00〜23:00土曜11:00〜14:00定休日／日曜・祝日TEL／06-6886-3130（12/9より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/119/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.500721,34.729166,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>静岡昭和町店</name>
+      <description>
+      <![CDATA[
+      <p>アイワンビル1A営業時間／11:00〜24:00定休日／日曜TEL／054-255-9100（2/9より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/126/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>138.383196,34.971596,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>姫路駅前店</name>
+      <description>
+      <![CDATA[
+      <p>TEL／079-288-8834（2月中旬開通予定）</p>
+      <p><a href="http://chin-ma-ya.org/shops/127/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>134.692378,34.828724,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>桃谷駅前店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜24:00定休日／無休TEL／06-6715-2079</p>
+      <p><a href="http://chin-ma-ya.org/shops/133/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.527858,34.657514,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>高麗橋店</name>
+      <description>
+      <![CDATA[
+      <p>ソーレ・ブリアンテ1F営業時間／11:00〜23:00定休日／無休TEL／06-7494-1739</p>
+      <p><a href="http://chin-ma-ya.org/shops/134/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.510891,34.688201,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>伊川谷店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜26:00定休日／無休TEL／078-975-2038</p>
+      <p><a href="http://chin-ma-ya.org/shops/135/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.004403,34.66783,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>沼津駅南店</name>
+      <description>
+      <![CDATA[
+      <p>沼津三交インビル2階営業時間／11:00〜24:00定休日／日曜TEL／055-951-6636（5/20より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/154/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>138.858708,35.100851,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>福島店</name>
+      <description>
+      <![CDATA[
+      <p>BRAVI福島1F営業時間／平日7:00〜25:00※10:00〜11:00は休業土曜・日曜・祝日11:00〜23:00定休日／無休TEL／06-6453-6455</p>
+      <p><a href="http://chin-ma-ya.org/shops/155/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>135.486886,34.700923,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>博多駅南店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜23:00定休日／無休TEL／092-483-5151</p>
+      <p><a href="http://chin-ma-ya.org/shops/97/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>130.421876,33.586318,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>泉崎一丁目店</name>
+      <description>
+      <![CDATA[
+      <p>サンハイツ喜納103号室営業時間／平日・祝日11:30〜25:00土曜11:30〜26:00定休日／日曜日TEL／098-863-0914</p>
+      <p><a href="http://chin-ma-ya.org/shops/98/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>127.678196,26.211837,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>博多駅前３丁目店</name>
+      <description>
+      <![CDATA[
+      <p>第6ダイヨシビル1階営業時間／11:00〜23:00定休日／日曜・祝日TEL／092-473-1255</p>
+      <p><a href="http://chin-ma-ya.org/shops/101/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>130.417259,33.587346,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>熊本下通り店</name>
+      <description>
+      <![CDATA[
+      <p>みどりやトーキビル1階営業時間／11:00〜23:00定休日／無休TEL／096-323-1109（11/22より開通）</p>
+      <p><a href="http://chin-ma-ya.org/shops/114/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>130.70933,32.802792,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+    
+    <Placemark>
+      <name>大名店</name>
+      <description>
+      <![CDATA[
+      <p>営業時間／11:00〜24:00定休日／無休TEL／092-714-3711</p>
+      <p><a href="http://chin-ma-ya.org/shops/120/">詳細</a></p>
+      ]]>
+      </description>
+      <Point>
+        <coordinates>130.39527,33.588505,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    
+  </Document>
+</kml>
+

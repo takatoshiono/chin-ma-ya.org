@@ -1,0 +1,38 @@
+{% extends "../base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}写真をアップロードする{% endblock %}
+
+{% block content %}
+    <form action="/photo/edit" method="post" enctype="multipart/form-data">
+        {% if object %}<input type="hidden" name="key" value="{{ object.key }}" />{% endif %}
+        <div class="form_row">
+            <label for="shop">店舗</label>
+            <select id="shop" name="shop">
+                <option value="">---</option>
+            {% for shop in shops %}
+                <option value="{{ shop.key }}" {% ifequal object.shop.name shop.name %}selected="selected"{% endifequal %}>{{ shop.name }}</option>
+            {% endfor %}
+            </select>
+        </div>
+        <div class="form_row">
+            <label for="title">タイトル</label>
+            <input type="text" id="title" name="title" value="{{ object.title|escape }}" />
+        </div>
+        <div class="form_row">
+            <label for="image"></label>
+            <input type="file" id="image" name="image" />
+        </div>
+        {% if object %}
+        <div class="form_row">
+            <img src="/photo/img?key={{ object.key }}" alt="{{ object.title|escape }}" />
+        </div>
+        {% endif %}
+        <div class="form-submit">
+            <input type="submit" value="送信する" />
+        </div>
+    </form>
+{% endblock %}
+

@@ -1,0 +1,50 @@
+application: chin-ma-ya
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+    - url: /media
+      static_dir: media
+
+    - url: /
+      script: handlers/main.py
+
+    - url: /shops/?.*
+      script: handlers/shop.py
+
+    - url: /admin/load/area
+      script: handlers/admin/load/area.py
+      login: admin
+
+    - url: /admin/load/shop
+      script: handlers/admin/load/shop.py
+      login: admin
+
+    - url: /admin/post/area
+      script: handlers/admin/post/area.py
+      #login: admin
+
+    - url: /admin/post/shop
+      script: handlers/admin/post/shop.py
+      #login: admin
+
+    - url: /admin/delete/shop
+      script: handlers/admin/delete/shop.py
+      #login: admin
+
+    - url: /blog/?.*
+      script: handlers/blog.py
+
+    #- url: /photo/?.*
+    #  script: handlers/photo.py
+
+    - url: /profile/?.*
+      script: handlers/profile.py
+
+    - url: /search
+      script: handlers/search.py
+
+    - url: /m.*
+      script: handlers/mobile.py
+

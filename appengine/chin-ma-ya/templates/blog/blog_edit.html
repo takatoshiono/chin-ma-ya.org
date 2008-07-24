@@ -1,0 +1,42 @@
+{% extends "../base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}ブログを書く{% endblock %}
+
+{% block content %}
+    <div id="blog_form">
+        <form action="/blog/edit" method="post">
+            {% if object %}<input type="hidden" name="key" value="{{ object.key }}" />{% endif %}
+            <div class="form_row">
+                {% if form.errors.shop %}
+                <div class="error">店舗を選択してください。</div>
+                {% endif %}
+                {% if form.errors.title %}
+                <div class="error">タイトルを入力してください。</div>
+                {% endif %}
+                <label for="shop">店舗:</label>
+                <select id="shop" name="shop">
+                    <option value="">---</option>
+                {% for shop in shops %}
+                    <option value="{{ shop.key }}" {% ifequal object.shop.name shop.name %}selected="selected"{% endifequal %}>{{ shop.name }}</option>
+                {% endfor %}
+                </select>
+                <label for="title">タイトル:</label>
+                <input type="text" id="title" name="title" value="{{ object.title|escape }}" />
+            </div>
+            <div class="form_row">
+                {% if form.errors.body %}
+                <div class="error">本文を入力してください。</div>
+                {% endif %}
+                <label for="body"></label>
+                <textarea id="body" name="body">{{ object.body|escape }}</textarea>
+            </div>
+            <div class="form_row">
+                <input type="submit" value="送信する" />
+            </div>
+        </form>
+    </div>
+{% endblock %}
+

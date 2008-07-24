@@ -1,0 +1,27 @@
+{% extends "../base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block title %}プロフィール編集{% endblock %}
+
+{% block content %}
+    <div id="profile_form">
+        <form action="/profile/edit" method="post">
+            <div class="form_row">
+                {% if form.errors.username %}
+                <div class="error">ユーザー名を入力してください。</div>
+                {% endif %}
+                {% if errors.username_exists %}
+                <div class="error">このユーザー名は既に使用されています。</div>
+                {% endif %}
+                <label for="username">ユーザー名:</label>
+                <input type="text" name="username" value="{{ profile.username|escape }}" />
+            </div>
+            <div class="form_row">
+                <input type="submit" value="送信する" />
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
