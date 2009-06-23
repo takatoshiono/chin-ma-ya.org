@@ -67,6 +67,18 @@
             </div>
         </div>
         <div id="main_right">
+            <h2>新着店舗</h2>
+            {% if new_shops %}
+            <ul>
+            {% for shop in new_shops %}
+            <li><a href="/shops/{{ shop.id }}">{{ shop.name }}</a></li>
+            {% endfor %}
+            </ul>
+            {% else %}
+            新着店舗はありません。
+            {% endif %}
+            <ul>
+            </ul>
         </div>
     </div>
 
