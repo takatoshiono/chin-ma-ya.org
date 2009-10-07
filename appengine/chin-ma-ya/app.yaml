@@ -7,7 +7,7 @@ handlers:
     - url: /media
       static_dir: media
 
-    - url: /
+    - url: /.*
       script: handlers/main.py
 
     - url: /shops/?.*
