@@ -1,0 +1,29 @@
+* chin-ma-ya.org
+
+chin-ma-ya.org is not in use now(2009/11/02).
+Instead of it, chinma-ya.appspot.com is now available.
+But perl programs are disabled. So shops will not update.
+
+http://chinma-ya.appspot.com/
+http://bitbucket.org/takatoshi.ono/chinma-ya/
+
+Perl programs may be transport to GAE apps in future :)
+
+* CPAN Modules
+
+Only not in Core modules.
+
+DBI
+Net::Twitter
+LWP::UserAgent
+URI
+Class::Accessor::Fast
+Web::Scraper
+Geocoder
+Geo::Coder::Google
+
+* cron
+
+0 12 */1 * * cd /path/to/chin-ma-ya.org; perl/script/shop_scraper.pl --dbfile db/chinmaya.db >logs/shop_scraper.log 2>&1
+0 13 */1 * * cd /path/to/chin-ma-ya.org; perl/script/update_shop.pl --dbfile db/chinmaya.db --host chin-ma-ya.org >logs/update_shop.log 2>&1
+
